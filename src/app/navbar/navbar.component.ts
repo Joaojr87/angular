@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { faFilter } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-navbar',
@@ -6,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
-
+  faFilter = faFilter;
   constructor() { }
 
   ngOnInit(): void {
